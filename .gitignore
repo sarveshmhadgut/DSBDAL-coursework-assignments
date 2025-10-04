@@ -1,0 +1,30 @@
+# Ignore Python-related files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+get-pip.py
+.metals/
+.scala-build/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore Scala and Java build files
+.bsp/
+.metals/
+.scala-build/
+*.class
+
+# Ignore datasets or large data files
+datasets/
+*.csv
+
+# Ignore Git metadata backup files
+*.swp
+*.swo
+
+# Ignore hidden folders and files created by OS or IDEs
+*.log
+*.tmp
+*.bak
